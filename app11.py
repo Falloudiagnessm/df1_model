@@ -132,7 +132,7 @@ def model_diffusion(Initial1,Initial2,epsilon, r_1, r_2, K_R, alpha, beta_1, bet
     def load_shapefile(shapefile_path):
         return gpd.read_file(shapefile_path)
 
-    shapefile_path = "SEN_adm1.shx"
+    shapefile_path = "SEN_adm1.shp"
     gdf = load_shapefile(shapefile_path)
 
     # Liste des arrondissements uniques dans le jeu de données de Thies
